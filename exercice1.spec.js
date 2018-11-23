@@ -12,4 +12,17 @@ describe('maFonction', function() {
 
     /* Ecrire le reste des tests ci dessous */
 
+    it('should return 65 ( string ) if param1==65', function () {
+        expect(maFonction(65)).toBe(65);
+    });
+
+    it('should return bang ( string ) if param1==bing', function () {
+       expect(maFonction("bing")).toBe("bang");
+    });
+
+    it('should return bip ( stirng ) if param1==23', function () {
+        expect(maFonction(23)).toBe("bip");
+    });
+
 });
+

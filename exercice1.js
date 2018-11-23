@@ -15,6 +15,10 @@ var maFonction = function(param1)
     {
         return "bang";
     }
+    else if (param1 == 23)
+    {
+        return "bip";
+    }
     else if(param1) {
         return true;
     }
